@@ -16,7 +16,7 @@
         "role": "Developer"
       }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-0": {
           "SpeedexAPI": "src"

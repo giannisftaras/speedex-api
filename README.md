@@ -54,7 +54,7 @@ $sp_api = new SpeedexAPI($options);
 
 #### Available options:
 |  configuration | options | Type | Description | Default |
-| ------------ | ------------ | ------------ |  ------------ | 
+| ------------ | ------------ | ------------ |  ------------ | ------------ | 
 |  cache | 0-3 | Integer | Specify the [WSDL cache](https://www.php.net/manual/en/soap.configuration.php#ini.soap.wsdl-cache "WSDL cache") level with a integer | 2 `'WSDL_CACHE_MEMORY'` |
 | timeout  |  0-100 | Integer | Timeout in seconds if the server does not respond | 5 |
 | exceptions | true, false | Boolean | Show or hide server side exceptions | true |

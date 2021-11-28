@@ -3,6 +3,7 @@
     "description": "Use the Speedex WSDL SOAP API with PHP",
     "version": "1.0.0",
     "type": "library",
+    "homepage": "https://github.com/giannisftaras/speedex-api",
     "require": {
       "php": ">=5.3.0"
     },
@@ -10,11 +11,16 @@
     "authors": [
       {
         "name": "Giannis Ftaras",
-        "email": "me@giannisftaras.dev"
+        "email": "me@giannisftaras.dev",
+        "homepage": "https://giannisftaras.dev",
+        "role": "Developer"
       }
     ],
     "minimum-stability": "dev",
     "autoload": {
+        "psr-0": {
+          "SpeedexAPI": "src"
+        },
         "psr-4": {
           "SpeedexAPI\\": "src/SpeedexAPI/"
         },

@@ -1,0 +1,32 @@
+{
+    "name": "giannisftaras/speedex-api",
+    "description": "Use the Speedex WSDL SOAP API with PHP",
+    "version": "1.0.0",
+    "type": "library",
+    "require": {
+      "php": ">=5.3.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+      {
+        "name": "Giannis Ftaras",
+        "email": "me@giannisftaras.dev"
+      }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+          "SpeedexAPI\\": "src/SpeedexAPI/"
+        },
+        "files": [
+          "src/SpeedexAPI/SpeedexAPI.php"
+        ]
+      },
+      "extra": {
+        "laravel": {
+          "providers": [
+            "SpeedexAPI\\SpeedexAPIServiceProvider"
+          ]
+        }
+      }
+  }

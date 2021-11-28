@@ -36,8 +36,8 @@ $voucher_id = '<THE VOUCHER NUMBER>';
 $voucher = $sp_api->get_voucher($voucher_id);
 
 if ($voucher->is_valid()) {
-	var_dump($voucher->get_data();
-	var_dump($voucher->is_delivered();
+	var_dump($voucher->get_data());
+	var_dump($voucher->is_delivered());
 }
 
 ?>
@@ -57,4 +57,4 @@ $sp_api = new SpeedexAPI($options);
 | ------------ | ------------ | ------------ |  ------------ | 
 |  cache | 0-3 | Integer | Specify the [WSDL cache](https://www.php.net/manual/en/soap.configuration.php#ini.soap.wsdl-cache "WSDL cache") level with a integer | 2 `'WSDL_CACHE_MEMORY'` |
 | timeout  |  0-100 | Integer | Timeout in seconds if the server does not respond | 5 |
-| exceptions | true, false | Boolean | Show or hide server side exceptions | true
+| exceptions | true, false | Boolean | Show or hide server side exceptions | true |
